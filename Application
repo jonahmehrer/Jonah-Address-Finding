@@ -1,0 +1,9 @@
+print "Hello! What is you name?"
+user_input = gets.chomp
+user_input.capitalize!
+puts "Hello #{user_input}!"
+
+print "Would you like to view the company list?"
+user_input2 = gets.chomp
+user_input2.downcase!
+if user_input 2.include? "yes"
