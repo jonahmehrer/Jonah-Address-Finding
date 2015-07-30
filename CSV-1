@@ -1,0 +1,8 @@
+CSV 1: csv_first			CSV 2: csv_second
+
+csv_first = csv.read ("Jonah/Documents/Listone")
+
+csv_second = csv.read ("Jonah/Documents/Listtwo")
+
+print csv_first
+print csv_second
