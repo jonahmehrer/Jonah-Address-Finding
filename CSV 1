@@ -1,0 +1,8 @@
+require 'csv'
+
+csv_first = CSV.read ("/home/jonah/Downloads/Listone.csv")
+
+csv_second = CSV.read ("/home/jonah/Downloads/Listtwo.csv")
+
+print csv_first
+print csv_second
