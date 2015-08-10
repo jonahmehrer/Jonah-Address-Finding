@@ -1,0 +1,8 @@
+# test_1 should be true
+test_1 = !( false ) && ( 5 < 7 )
+
+# test_2 = should be true
+test_2 = !( false ) || ( 6 == 6 )
+
+# test_3 = should be false
+test_3 = ( false || ( 7 > 30 ) ) && true
